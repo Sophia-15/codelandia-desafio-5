@@ -1,0 +1,20 @@
+button {
+  display: flex;
+  align-items: center;
+
+  padding: 1rem 2rem;
+  // transform: skew(-15deg);
+  border: none;
+
+  a {
+    font-size: 1.4rem;
+    color: #f9f9f9;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  img {
+    height: 1.5rem;
+    padding-right: 0.5rem;
+  }
+}
