@@ -13,9 +13,33 @@ html {
 
 body {
   background: linear-gradient(130.02deg, #628e75 0.66%, #1a4855 83.32%);
-  padding: 2rem 16.5rem;
+  padding: 2rem 10%;
 
   .audio {
     display: none;
+  }
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 515px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media (max-width: 416px) {
+  html {
+    font-size: 53%;
+  }
+}
+
+@media (max-width: 386px) {
+  html {
+    font-size: 48%;
+  }
+
+  body {
+    padding: 2rem 5%;
   }
 }

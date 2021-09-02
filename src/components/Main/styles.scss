@@ -16,7 +16,6 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  // flex-direction: column;
 
   .info {
     padding: 7.5rem 9rem 7.5rem 0;
@@ -71,8 +70,52 @@ main {
 
   .illustration {
     animation: slide 4s infinite linear;
-    margin-left: 5%;
   }
 }
 
 /*MEDIA QUERIES*/
+
+@media (max-width: 1146px) {
+  main {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+
+    .info {
+      padding: 0;
+
+      .buttons {
+        .watch-trailer {
+          display: none;
+        }
+
+        .watch-now {
+          margin-bottom: 2rem;
+        }
+      }
+    }
+
+    .illustration {
+      height: 60rem;
+    }
+  }
+}
+
+@media (max-width: 620px) {
+  main {
+    .illustration {
+      height: 50rem;
+    }
+  }
+}
+
+@media (max-width: 515px) {
+  html {
+    font-size: 40%;
+  }
+
+  main {
+    .illustration {
+      height: 40rem;
+    }
+  }
+}

@@ -4,6 +4,12 @@ ul {
   justify-content: space-between;
   list-style-type: none;
 
+  .logo {
+    img {
+      height: 7rem;
+    }
+  }
+
   .socials {
     display: flex;
     align-items: center;
@@ -15,6 +21,16 @@ ul {
         transform: translateY(-0.5rem);
         transition: 0.2s ease-in-out;
       }
+    }
+  }
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 386px) {
+  .socials {
+    img {
+      height: 2.7rem;
     }
   }
 }
